@@ -203,13 +203,12 @@
         </svg>
 
         <script>
-            const tween = KUTE.fromto(
+            const tween = KUTE.fromTo(
                 '#blob1',
-                {path: '#blob1'},
-                {path: '#blob2'},
-                {repeat:999, duration: 3000, yoyo: true}
-            )
-            tween.start();
+                { path: '#blob1' },
+                { path: '#blob2' },
+                { repeat: 999, duration: 3000, yoyo: true }
+            ).start();
         </script>
     </section>
     <section class="spacer layer1">
